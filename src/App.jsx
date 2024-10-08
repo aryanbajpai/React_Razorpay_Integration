@@ -19,7 +19,7 @@ function App() {
         <div className="absolute top-2 right-5">
           <button
             onClick={handleToggle}
-            className={`text-2xl p-2 rounded-full ${theme ? "text-black bg-gray-200" : "text-white bg-black"}`}
+            className={`text-2xl p-2 rounded-full ${theme ? "text-black bg-gray-200" : "text-white bg-gray-800"}`}
           >
             {theme ? (
               <svg

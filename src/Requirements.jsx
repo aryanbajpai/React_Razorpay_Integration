@@ -4,7 +4,7 @@ import img from '../src/assets/profile.png';
 const Requirements = ({ theme }) => {
   const handlePayment = async () => {
     const options = {
-      key: "testKeys",
+      key: "Razorpay testKet Here",
       amount: 50000, // Amount in paise
       currency: "INR",
       name: "Aryan Bajpai",
@@ -51,9 +51,9 @@ const Requirements = ({ theme }) => {
       </section>
       <div
         onClick={handlePayment}
-        className={`bg-green-500 mt-4 text-xl px-4 py-2 rounded-lg ${theme ? 'text-white' : 'text-gray-800'} mx-auto w-[250px] text-center cursor-pointer`}
+        className={`bg-green-500 mt-4 text-xl px-4 py-2 rounded-full ${theme ? 'text-white' : 'text-gray-800'} mx-auto w-[180px] text-center cursor-pointer`}
       >
-        For test Pay Rs. 500/-
+        PAY NOW
       </div>
     </>
   );
