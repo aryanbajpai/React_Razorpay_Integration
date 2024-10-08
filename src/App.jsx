@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import Requirements from "./Requirements";
+import PaymentComponent from "./PaymentComponent";
 
 function App() {
   const [theme, setTheme] = useState(true);
@@ -56,6 +57,8 @@ function App() {
         </div>
 
         <Requirements theme={theme} />
+
+        <PaymentComponent theme={theme} />
       </section>
     </main>
   );
